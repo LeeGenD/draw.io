@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T08:18:44.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="pgeihqEknbC0gWS1YYPu" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T08:45:38.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="CjmyQ38EBrAgDRjCGTpp" version="17.4.6" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1689" dy="3291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1013" dy="2855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,21 +341,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qkXgEpNMvEvncD83NuCU-58" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="3840" y="-990" width="100" height="35" as="geometry" />
+          <mxGeometry x="3760" y="-998" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="qkXgEpNMvEvncD83NuCU-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-60">
+        <mxCell id="qkXgEpNMvEvncD83NuCU-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-60" target="qkXgEpNMvEvncD83NuCU-72">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3890" y="-830" as="targetPoint" />
+            <mxPoint x="3810" y="-838" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qkXgEpNMvEvncD83NuCU-60" value="开始设置字体大小" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3840" y="-910" width="100" height="50" as="geometry" />
+          <mxGeometry x="3760" y="-918" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-72" target="qkXgEpNMvEvncD83NuCU-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qkXgEpNMvEvncD83NuCU-72" value="将此动作添加到History" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3840" y="-810" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qkXgEpNMvEvncD83NuCU-73" value="将此样式添加到段落" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3840" y="-720" width="100" height="50" as="geometry" />
+          <mxGeometry x="3760" y="-818" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qkXgEpNMvEvncD83NuCU-74" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;Selection&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Start&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Use&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;StartPos&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;EndPos&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Flag&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Data&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="2250" y="-1080" width="300" height="193" as="geometry" />
@@ -365,6 +365,45 @@
             <mxPoint x="1720" y="-251.5" as="sourcePoint" />
             <mxPoint x="2260" y="-693.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-76" target="qkXgEpNMvEvncD83NuCU-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-76" value="找到当前选中的元素" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3937.5" y="-918" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-77" target="qkXgEpNMvEvncD83NuCU-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-77" value="切割ParaRun：&lt;br&gt;Left、Current、Right" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3920" y="-818" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-78" target="qkXgEpNMvEvncD83NuCU-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-78" value="将新样式设置到Current上" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3937.5" y="-718" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-79" target="qkXgEpNMvEvncD83NuCU-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-79" value="将新生成的ParaRun替换到段落里" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3937.5" y="-619.5" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-80" target="qkXgEpNMvEvncD83NuCU-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-80" value="重新计算分页" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4110" y="-918" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qkXgEpNMvEvncD83NuCU-81" target="qkXgEpNMvEvncD83NuCU-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-81" value="重新渲染界面" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="4110" y="-828" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-88" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="4110" y="-730" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
