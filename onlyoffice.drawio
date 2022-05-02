@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T10:31:33.647Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="1ZSzLV5jlceUYDDZdA6S" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-02T03:23:54.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="9vpkCkCsy5iQzE1rD93t" version="17.4.6" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="2151" dy="3603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3525" dy="4370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="17acba5748e5396b-1" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-1660" width="4770" height="3580" as="geometry" />
+          <mxGeometry x="40" y="-1660" width="3630" height="3580" as="geometry" />
         </mxCell>
         <mxCell id="5d2195bd80daf111-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;ParaRun&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Id&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Paragraph&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Pr:&amp;nbsp;CTextPr&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Content:&amp;nbsp;ParaText[]&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Selection&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;CompiledPr:&amp;nbsp;CTextPr&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RecalcInfo:&amp;nbsp;CParaRunRecalcInfo&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Draw_Elements(PDSE)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;protected_GetRangeStartPos(LineIndex, RangeIndex)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;protected_GetRangeEndPos(LineIndex, RangeIndex)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RecalculateNumbering(PRS, Item, ParaPr, _X)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry x="660" y="-100" width="300" height="220" as="geometry" />
@@ -255,6 +255,36 @@
             <mxPoint x="670" y="20" as="sourcePoint" />
             <mxPoint x="570" y="75" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-41" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3230" y="-1560" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-31" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;sdkjs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-21" value="libfont" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="10" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-23" value="Drawings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="100" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-24" value="Images" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="190" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-25" value="Charts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="10" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-26" value="Shapes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="100" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-28" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="280" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-29" value="externs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="280" y="10" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qkXgEpNMvEvncD83NuCU-30" value="hash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qkXgEpNMvEvncD83NuCU-41">
+          <mxGeometry x="190" y="40" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
