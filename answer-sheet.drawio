@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T03:45:09.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="VbMuRRcawDcrenZd54_8" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T12:46:18.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="3V_BQcclCI2hQI9np1H9" version="17.5.0" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="786" dy="1591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="873" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,6 +195,128 @@
             <mxPoint x="730" y="-350" as="sourcePoint" />
             <mxPoint x="520" y="-350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-15" target="fuyfgmNVLUuhkr_44X1W-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3130" y="-560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-15" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="-640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-18" target="fuyfgmNVLUuhkr_44X1W-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-18" value="创建新line&lt;br&gt;创建新page" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="-420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-21" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="430" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-24" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-22" target="fuyfgmNVLUuhkr_44X1W-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-22" target="fuyfgmNVLUuhkr_44X1W-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3240" y="-510" />
+              <mxPoint x="3240" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-29" value="N&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fuyfgmNVLUuhkr_44X1W-26">
+          <mxGeometry x="0.2283" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-22" value="查找下一个paragraph" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="-560" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-31" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-27" target="fuyfgmNVLUuhkr_44X1W-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3130" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-27" value="查找下一个&lt;br&gt;widget" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="-340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-32" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-27" target="fuyfgmNVLUuhkr_44X1W-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2920" y="-290" />
+              <mxPoint x="2920" y="-510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-33" target="fuyfgmNVLUuhkr_44X1W-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3060" y="-130" />
+              <mxPoint x="3060" y="-130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-35" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fuyfgmNVLUuhkr_44X1W-34">
+          <mxGeometry x="0.1008" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-33" target="fuyfgmNVLUuhkr_44X1W-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-42" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fuyfgmNVLUuhkr_44X1W-37">
+          <mxGeometry x="-0.2571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-33" value="line剩余宽度&lt;br&gt;&amp;gt;&lt;br&gt;widget宽度" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="-180" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-36" target="fuyfgmNVLUuhkr_44X1W-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-38" target="fuyfgmNVLUuhkr_44X1W-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3199.9999999999995" y="-70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3220" y="220" />
+              <mxPoint x="3220" y="-290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-45" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fuyfgmNVLUuhkr_44X1W-43">
+          <mxGeometry x="-0.33" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-36" target="fuyfgmNVLUuhkr_44X1W-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-36" value="创建新line" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="-30" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-38" value="创建新page" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-41" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-39" target="fuyfgmNVLUuhkr_44X1W-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fuyfgmNVLUuhkr_44X1W-39" target="fuyfgmNVLUuhkr_44X1W-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-50" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fuyfgmNVLUuhkr_44X1W-49">
+          <mxGeometry x="-0.1048" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-39" value="page剩余高度&lt;br&gt;&amp;gt;&lt;br&gt;line高度" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-46" value="widget添加到&lt;br&gt;line" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="-150" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuyfgmNVLUuhkr_44X1W-48" value="line添加到page" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="80" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
