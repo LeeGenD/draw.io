@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="26.0.16">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="722" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,11 +128,11 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="调用/speakmaster/user/detail根据abResList判断是否需要显示广告入口&lt;div&gt;+再生成次数X&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-8" vertex="1">
           <mxGeometry x="39" y="105" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="83-cvZ2OEZh-le51dASl-16" value="调用/speakmaster/pictask/check&lt;div&gt;sceneId: props.state.sceneId.toString(), taskType: &#39;5&#39;,&lt;/div&gt;&lt;div&gt;adsId: adUniqueId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
+        <mxCell id="83-cvZ2OEZh-le51dASl-16" value="调用/speakmaster/pictask/check&lt;div&gt;sceneId: props.state.sceneId.toString(), taskType: &#39;5&#39;,&lt;/div&gt;&lt;div&gt;adsId: adUniqueId&lt;/div&gt;&lt;div&gt;adsType: 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
           <mxGeometry x="19" y="530" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="83-cvZ2OEZh-le51dASl-47" value="调用/speakmaster/pictask/create&lt;div&gt;创建生图任务&lt;br&gt;&lt;div&gt;type: &#39;avatar&#39;,&lt;/div&gt;&lt;div&gt;img: &#39;&#39;,&lt;/div&gt;&lt;div&gt;sex: options.sex,&lt;/div&gt;&lt;div&gt;styles: options.styles,&lt;/div&gt;&lt;div&gt;eventPrompt: &#39;&#39;,&lt;/div&gt;&lt;div&gt;sceneId: options.sceneId,&lt;/div&gt;&lt;div&gt;adsId: options.adsId,&lt;/div&gt;&lt;div&gt;originImg: options.originImg&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
-          <mxGeometry x="19" y="800" width="240" height="150" as="geometry" />
+        <mxCell id="83-cvZ2OEZh-le51dASl-47" value="调用/speakmaster/pictask/create&lt;div&gt;创建生图任务&lt;br&gt;&lt;div&gt;type: &#39;avatar&#39;,&lt;/div&gt;&lt;div&gt;img: &#39;&#39;,&lt;/div&gt;&lt;div&gt;sex: options.sex,&lt;/div&gt;&lt;div&gt;styles: options.styles,&lt;/div&gt;&lt;div&gt;eventPrompt: &#39;&#39;,&lt;/div&gt;&lt;div&gt;sceneId: options.sceneId,&lt;/div&gt;&lt;div&gt;adsId: options.adsId,&lt;/div&gt;&lt;div&gt;originImg: options.originImg&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;adsType: 1&lt;br&gt;&lt;/div&gt;&lt;div&gt;adsId:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;adUniqueId&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
+          <mxGeometry x="19" y="750" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="83-cvZ2OEZh-le51dASl-49" value="调用/speakmaster/pictask/detail&lt;div&gt;获取生图状态&lt;br&gt;&lt;div&gt;taskId: &#39;&#39;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
           <mxGeometry x="19" y="970" width="240" height="60" as="geometry" />
@@ -145,10 +145,10 @@
             <mxRectangle width="200" height="1330" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-13" value="调用loadAd加载广告&lt;div&gt;placeid: &#39;picture_queue_rwd&#39;, adScene: 1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-11" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-13" value="调用loadAd加载广告&lt;div&gt;placeid: &#39;新增的&#39;,&lt;/div&gt;&lt;div&gt;adScene: 2&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-11" vertex="1">
           <mxGeometry x="17.5" y="290" width="165" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="83-cvZ2OEZh-le51dASl-11" value="调用showAd展示广告&lt;div&gt;placeid: &#39;picture_queue_rwd&#39;, adScene: 1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+        <mxCell id="83-cvZ2OEZh-le51dASl-11" value="调用showAd展示广告&lt;div&gt;placeid: &#39;新增的&#39;,&lt;/div&gt;&lt;div&gt;adScene: 2&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
           <mxGeometry x="17.5" y="450" width="165" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-3" source="3nuBFxr9cyL0pnOWT2aG-7" target="3nuBFxr9cyL0pnOWT2aG-9" edge="1">
